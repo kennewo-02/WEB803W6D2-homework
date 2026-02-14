@@ -17,10 +17,10 @@ class Counter extends React.Component {
             <div>
                 <h2>Counter</h2>
                 <div>
-                    <span>{this.props.count}</span>
-                    <button onClick={this.decrement}>-</button>
-                    <button onClick={this.decrement}>+</button>
-                </div>
+  <span>{this.props.count}</span>
+  <button onClick={this.decrement}>-</button>
+  <button onClick={this.increment}>+</button>
+</div>
             </div>
         )
     }
